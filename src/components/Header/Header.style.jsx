@@ -14,8 +14,6 @@ export const HeaderBar = styled.header`
         -moz-box-shadow: 0px 4px 14px -9px rgba(145,145,145,1);
         box-shadow: 0px 4px 14px -9px rgba(145,145,145,1);
 
-        flex: 1;
-
         display: flex;
         justify-content: space-between;
         flex-direction: row;

@@ -47,10 +47,19 @@ export const PresentationText = styled.div`
     width: 100%;
     height: 50%;
     padding: 4em;
+    filter: drop-shadow(-3px 1px 8px #272727);
     & p {
+        font-weight: bold;
         font-size: 4.5em;
         line-height: 1.5em;
-        text-shadow: black -1px -1px;
+    }
+
+    & div {
+        line-height: 7em;
+        display: flex;
+        padding-left: 5em;
+        font-size: 22px;
+
     }
 
 `;

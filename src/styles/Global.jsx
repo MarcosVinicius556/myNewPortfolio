@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: sans-serif;
         color: #fff;
+        font-family: "Nunito", sans-serif;
     }
     
     body{

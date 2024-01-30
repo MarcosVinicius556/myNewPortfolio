@@ -7,17 +7,18 @@ export const HeaderBar = styled.header`
     justify-content: space-between;
     align-items: center;
 
-
     
     & nav {
         -webkit-box-shadow: 0px 4px 14px -9px rgba(145,145,145,1);
         -moz-box-shadow: 0px 4px 14px -9px rgba(145,145,145,1);
         box-shadow: 0px 4px 14px -9px rgba(145,145,145,1);
+;
 
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         height: 100%;
+        width: 100%;
 
 
     }
@@ -40,6 +41,19 @@ export const NameContent = styled.div`
         font-size: 32px;
         height: 1em;
         color: #8400ff;
+        }
+    }
+
+    & svg {
+        position: absolute;
+        right: 1em;
+        transition: all .3s;
+        cursor: pointer;
+        border-radius: 5px;
+        
+        &:hover {
+            transform: scale(1.2);
+
         }
     }
     

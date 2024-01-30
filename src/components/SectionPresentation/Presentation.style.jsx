@@ -11,7 +11,7 @@ export const PresentationContent = styled.div`
     -moz-box-shadow: inset 0px 4px 153px 45px rgba(0,0,0,1);
     box-shadow: inset 0px 4px 153px 45px rgba(0,0,0,1);
 
-    height: 50em;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
